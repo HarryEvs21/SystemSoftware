@@ -48,7 +48,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <Component id="Tempreature" min="-2" pref="102" max="-2" attributes="0"/>
+                          <Component id="Temperature" min="-2" pref="102" max="-2" attributes="0"/>
                           <EmptySpace max="32767" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="Stop" min="-2" pref="102" max="-2" attributes="0"/>
@@ -76,7 +76,7 @@
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Component id="Stop" min="-2" pref="40" max="-2" attributes="0"/>
-                      <Component id="Tempreature" min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="Temperature" min="-2" pref="40" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
@@ -103,13 +103,13 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="java.awt.Button" name="Tempreature">
+        <Component class="java.awt.Button" name="Temperature">
           <Properties>
             <Property name="actionCommand" type="java.lang.String" value="Tempreature"/>
             <Property name="label" type="java.lang.String" value="Tempreature"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TempreatureActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TemperatureActionPerformed"/>
           </Events>
         </Component>
         <Component class="java.awt.Button" name="Stop">

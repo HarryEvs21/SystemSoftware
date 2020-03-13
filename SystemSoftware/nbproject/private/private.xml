@@ -5,7 +5,13 @@
         <group>
             <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/Plot_Data.java</file>
             <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/Client.java</file>
+            <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/FarmerClientServer.java</file>
+            <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/WeatherStation.java</file>
+            <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/Server.java</file>
             <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/DataDisplayScreen.java</file>
+            <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/src/farmerclientserver/LogInScreen.java</file>
+            <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/build.xml</file>
+            <file>file:/C:/Users/Harry/Documents/GitHub/SystemSoftware/SystemSoftware/Admin.txt</file>
         </group>
     </open-files>
 </project-private>

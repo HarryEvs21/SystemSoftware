@@ -36,7 +36,7 @@ public class DataDisplayScreen extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        Tempreature = new java.awt.Button();
+        Temperature = new java.awt.Button();
         Stop = new java.awt.Button();
         CropHeight = new java.awt.Button();
         Rainfall = new java.awt.Button();
@@ -50,11 +50,11 @@ public class DataDisplayScreen extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        Tempreature.setActionCommand("Tempreature");
-        Tempreature.setLabel("Tempreature");
-        Tempreature.addActionListener(new java.awt.event.ActionListener() {
+        Temperature.setActionCommand("Tempreature");
+        Temperature.setLabel("Tempreature");
+        Temperature.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                TempreatureActionPerformed(evt);
+                TemperatureActionPerformed(evt);
             }
         });
 
@@ -109,7 +109,7 @@ public class DataDisplayScreen extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(Tempreature, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(Temperature, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(Stop, javax.swing.GroupLayout.PREFERRED_SIZE, 102, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -130,7 +130,7 @@ public class DataDisplayScreen extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Stop, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(Tempreature, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(Temperature, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -168,10 +168,10 @@ public class DataDisplayScreen extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void TempreatureActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TempreatureActionPerformed
+    private void TemperatureActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TemperatureActionPerformed
         Choice = 1;
         Constant_Update();
-    }//GEN-LAST:event_TempreatureActionPerformed
+    }//GEN-LAST:event_TemperatureActionPerformed
 
     private void StopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_StopActionPerformed
         Choice = 0;
@@ -315,7 +315,7 @@ public class DataDisplayScreen extends javax.swing.JFrame {
     private java.awt.Button Rainfall;
     private javax.swing.JTextArea RainfallData;
     private java.awt.Button Stop;
-    private java.awt.Button Tempreature;
+    private java.awt.Button Temperature;
     private javax.swing.JTextArea TempreatureData;
     private javax.swing.JButton Update;
     private javax.swing.JPanel jPanel1;
